@@ -1,0 +1,133 @@
+# i3 config file (v4)
+# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+
+# ----- Definitions --------------------------------------------------------------------------------
+gaps inner 15
+gaps outer 15
+set $mod Mod4
+
+font pango:monospace 8
+
+bindsym $mod+Return  exec i3-sensible-terminal
+bindsym $mod+Shift+q kill
+bindsym $mod+d       exec dmenu_run
+
+floating_modifier $mod
+for_window [class="^.*"] border pixel 1
+
+# ----- Startup ------------------------------------------------------------------------------------
+exec_always --no-startup-id feh --bg-scale ~/.config/wall
+exec        --no-startup-id compton --xrender-sync-fence
+exec        --no-startup-id mpd
+
+# ----- Container Management -----------------------------------------------------------------------
+bindsym $mod+j         focus left
+bindsym $mod+Left      focus left
+bindsym $mod+k         focus down
+bindsym $mod+Down      focus down
+bindsym $mod+l         focus up
+bindsym $mod+Up        focus up
+bindsym $mod+semicolon focus right
+bindsym $mod+Right     focus right
+
+bindsym $mod+Shift+j         move left
+bindsym $mod+Shift+Left      move left
+bindsym $mod+Shift+k         move down
+bindsym $mod+Shift+Down      move down
+bindsym $mod+Shift+l         move up
+bindsym $mod+Shift+Up        move up
+bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+Right     move right
+
+bindsym $mod+h split h
+bindsym $mod+v split v
+
+bindsym $mod+f fullscreen toggle
+
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+bindsym $mod+Shift+space floating toggle
+
+bindsym $mod+space focus mode_toggle
+
+bindsym $mod+a focus parent
+
+# ----- Workspace Management -----------------------------------------------------------------------
+set $ws1  "一"
+set $ws2  "二"
+set $ws3  "三"
+set $ws4  "四"
+set $ws5  "五"
+set $ws6  "六"
+set $ws7  "七"
+set $ws8  "八"
+set $ws9  "九"
+set $ws10 "十"
+
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# ----- Lifecycle Management -----------------------------------------------------------------------
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# ----- XF86 ---------------------------------------------------------------------------------------
+bindsym XF86AudioMute         exec --no-startup-id amixer sset Master toggle
+bindsym XF86AudioLowerVolume  exec --no-startup-id amixer sset Master 5%-
+bindsym XF86AudioRaiseVolume  exec --no-startup-id amixer sset Master 5%+
+bindsym XF86AudioNext         exec --no-startup-id mpc next
+bindsym XF86AudioPrev         exec --no-startup-id mpc prev
+bindsym XF86AudioPlay         exec --no-startup-id mpc toggle
+bindsym XF86AudioStop         exec --no-startup-id mpc toggle
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 15
+bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 15
+
+# ----- Screenshots --------------------------------------------------------------------------------
+bindsym Print       exec --no-startup-id scrot    # Print whole screen.
+bindsym Shift+Print exec --no-startup-id scrot -u # Print currently focused window.
+
+# ----- Resizing -----------------------------------------------------------------------------------
+bindsym $mod+r mode "resize"
+mode "resize" {
+        bindsym j         resize shrink width  10 px or 10 ppt
+        bindsym Left      resize shrink width  10 px or 10 ppt
+        bindsym k         resize grow   height 10 px or 10 ppt
+        bindsym Down      resize grow   height 10 px or 10 ppt
+        bindsym l         resize shrink height 10 px or 10 ppt
+        bindsym Up        resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow   width  10 px or 10 ppt
+        bindsym Right     resize grow   width  10 px or 10 ppt
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+# ----- i3bar --------------------------------------------------------------------------------------
+bar {
+        status_command i3status
+	position top
+}
+
