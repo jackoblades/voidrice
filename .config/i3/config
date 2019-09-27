@@ -13,7 +13,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d       exec dmenu_run
 
 floating_modifier $mod
-for_window [class="^.*"] border pixel 1
+#for_window [class="^.*"] border pixel 1
 
 # ----- Startup ------------------------------------------------------------------------------------
 exec_always --no-startup-id feh --bg-scale ~/.config/wall
@@ -55,16 +55,16 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # ----- Workspace Management -----------------------------------------------------------------------
-set $ws1  "一"
-set $ws2  "二"
-set $ws3  "三"
-set $ws4  "四"
-set $ws5  "五"
-set $ws6  "六"
-set $ws7  "七"
-set $ws8  "八"
-set $ws9  "九"
-set $ws10 "十"
+set $ws1  "1"
+set $ws2  "2"
+set $ws3  "3"
+set $ws4  "4"
+set $ws5  "5"
+set $ws6  "6"
+set $ws7  "7"
+set $ws8  "8"
+set $ws9  "9"
+set $ws10 "0"
 
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -94,9 +94,9 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # ----- XF86 ---------------------------------------------------------------------------------------
-bindsym XF86AudioMute         exec --no-startup-id amixer sset Master toggle
-bindsym XF86AudioLowerVolume  exec --no-startup-id amixer sset Master 5%-
-bindsym XF86AudioRaiseVolume  exec --no-startup-id amixer sset Master 5%+
+bindsym XF86AudioMute         exec --no-startup-id amixer -qM sset Master toggle
+bindsym XF86AudioLowerVolume  exec --no-startup-id amixer -qM sset Master 5%-
+bindsym XF86AudioRaiseVolume  exec --no-startup-id amixer -qM sset Master 5%+
 bindsym XF86AudioNext         exec --no-startup-id mpc next
 bindsym XF86AudioPrev         exec --no-startup-id mpc prev
 bindsym XF86AudioPlay         exec --no-startup-id mpc toggle
