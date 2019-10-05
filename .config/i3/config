@@ -2,8 +2,8 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 # ----- Definitions --------------------------------------------------------------------------------
-gaps inner 15
-gaps outer 15
+gaps inner 0
+gaps outer 0
 set $mod Mod4
 
 font pango:monospace 8
@@ -16,7 +16,7 @@ floating_modifier $mod
 #for_window [class="^.*"] border pixel 1
 
 # ----- Startup ------------------------------------------------------------------------------------
-exec_always --no-startup-id feh --bg-scale ~/.config/wall
+#exec_always --no-startup-id feh --bg-scale ~/.config/wall
 exec        --no-startup-id compton --xrender-sync-fence
 exec        --no-startup-id mpd
 
