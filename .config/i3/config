@@ -19,6 +19,7 @@ floating_modifier $mod
 #exec_always --no-startup-id feh --bg-scale ~/.config/wall
 exec        --no-startup-id compton --xrender-sync-fence
 exec        --no-startup-id mpd
+exec        --no-startup-id redshift -c ~/.config/redshift/redshift.config
 
 # ----- Container Management -----------------------------------------------------------------------
 bindsym $mod+j         focus left
