@@ -7,10 +7,8 @@ endif
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'mboughaba/i3config.vim'
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 set list
 set number
-
-let g:airline#extensions#vimagit#enabled = 1
