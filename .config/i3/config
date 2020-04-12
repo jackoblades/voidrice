@@ -16,7 +16,7 @@ floating_modifier $mod
 #for_window [class="^.*"] border pixel 1
 
 # ----- Startup ------------------------------------------------------------------------------------
-#exec_always --no-startup-id feh --bg-scale ~/.config/wall
+exec_always --no-startup-id xwallpaper --center ~/.config/wall
 exec        --no-startup-id xcompmgr -c
 exec        --no-startup-id mpd
 exec        --no-startup-id redshift -c ~/.config/redshift/redshift.config
