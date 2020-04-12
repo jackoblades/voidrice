@@ -17,7 +17,7 @@ floating_modifier $mod
 
 # ----- Startup ------------------------------------------------------------------------------------
 exec_always --no-startup-id xwallpaper --center ~/.config/wall
-exec        --no-startup-id xcompmgr -c
+exec        --no-startup-id xcompmgr -c -o.60
 exec        --no-startup-id mpd
 exec        --no-startup-id redshift -c ~/.config/redshift/redshift.config
 
