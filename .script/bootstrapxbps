@@ -1,0 +1,75 @@
+#!/bin/sh
+#
+# bootstrapxbps
+#
+# This script takes a comma separated .csv file with the following format:
+# A,B,C,...
+# where:
+# A = an xbps package name.
+# all other columns will be ignored.
+#
+# First, "xbps-install -Suvy" will be called 3 times to ensure up to date repositories and existing packages.
+# Then, all A values will be put into a call to "xbps-install".
+
+Help()
+{
+	echo "bootstrapxbps [-h] [-e] file.csv"
+	echo "file.csv is a comma separated value file. Separate with ,"
+	echo "Package names will be gathered from the 0th column."
+	echo "-h	Help"
+	echo "-e	Install nonfree and multilib repositories before bootstrap"
+}
+
+Usage()
+{
+	echo "Usage:"
+	echo "bootstrapxbps -h"
+	echo "bootstrapxbps [-e] file.csv"
+}
+
+ExtraRepos()
+{
+	# Install multilib repository separately.
+	xbps-install -Sy void-repo-multilib
+	xbps-install -Sy void-repo-multilib-nonfree
+	xbps-install -Sy void-repo-nonfree
+}
+
+Upgrade()
+{
+	# Update repositories and existing packages.
+	xbps-install -Suy
+	xbps-install -Suy
+	xbps-install -Suy
+
+	# Gather packages in .csv argument.
+	IFS=","
+	CMD="xbps-install"
+
+	while read package comment; do
+		CMD="${CMD} ${package}"
+	done < "${1}"
+
+	IFS=$OLDIFS
+
+	# Install specified packages.
+	eval $CMD
+
+	exit 0
+}
+
+while getopts 'he' c; do
+	case ${c} in
+		h)	Help
+			exit 0
+			;;
+		e)	ExtraRepos
+			;;
+		\?)	Usage
+			exit 1
+			;;
+	esac
+done
+shift $((OPTIND -1))
+
+Upgrade $1

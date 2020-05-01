@@ -1,0 +1,60 @@
+0ad,RTS game
+alsa-utils,audio utilities
+audacity,audio file editor
+clang,C compiler
+CSFML,
+CSFML-devel,
+curl,cli https download utility
+dbus,
+dmenu,suckless modular menu
+filezilla,FTP client
+firefox,web browser
+gcc,C compiler
+gimp,image file editor
+git,Version Control System
+i3-gaps,tiling window manager
+i3status,status bar for i3
+imlib2-devel,
+intel-video-accel,intel video acceleration meta package
+irssi,cli IRC client
+libXft,
+libXft-devel,
+libXinerama-devel,
+libcurl,
+libglvnd,
+make,C build utility
+mesa-dri,intel video drivers
+mesa-vulkan-intel,mesa vulkan drivers
+mono,.net for linux
+mpc,music player client
+mpd,music player daemon
+ncmpcpp,cli music player client
+ncurses-devel,ncurses development library
+neofetch,cli system info
+neovim,cli text editor
+NetworkManager,Wired and wireless network manager, comes with a cli
+noto-fonts-cjk,East Asian fonts pack
+openjdk,java compiler
+p7zip,.7z compression utility
+patch,code file patch utility
+pkg-config,library locator utility
+redshift,blue light filter
+scrot,cli screenshot
+SFML,
+SFML-devel,
+unzip,.zip decompression utility
+vulkan-loader,khronos vulkan drivers
+wesnoth,strategy game
+wget,cli https download utility
+xbacklight,X server backlight utility
+xclip,X server clipboard utility
+xcompmgr,X server composition manager
+xf86-video-intel,intel video drivers
+xorg-fonts,X server fonts
+xorg-minimal,X server base install
+xrandr,X server resolution and screen utility
+xsetroot,X server utility
+xtools,xbps utility
+xz,.xz compression utility
+zip,.zip compression utility
+zsh,shell
