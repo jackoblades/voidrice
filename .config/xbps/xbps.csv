@@ -55,6 +55,7 @@ xorg-minimal,X server base install
 xrandr,X server resolution and screen utility
 xsetroot,X server utility
 xtools,xbps utility
+xwallpaper,X server wallpaper utility
 xz,.xz compression utility
 zip,.zip compression utility
 zsh,shell
