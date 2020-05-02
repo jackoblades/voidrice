@@ -2,6 +2,7 @@
 alsa-utils,audio utilities
 audacity,audio file editor
 clang,C compiler
+cmake,C build engine
 CSFML,
 CSFML-devel,
 curl,cli https download utility
@@ -40,6 +41,7 @@ patch,code file patch utility
 pkg-config,library locator utility
 redshift,blue light filter
 scrot,cli screenshot
+SDL2_mixer-devel,SDL2 development libraries
 SFML,
 SFML-devel,
 unzip,.zip decompression utility
