@@ -59,5 +59,6 @@ xsetroot,X server utility
 xtools,xbps utility
 xwallpaper,X server wallpaper utility
 xz,.xz compression utility
+zathura,PDF reader
 zip,.zip compression utility
 zsh,shell
