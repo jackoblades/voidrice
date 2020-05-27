@@ -39,6 +39,7 @@ openjdk,java compiler
 p7zip,.7z compression utility
 patch,code file patch utility
 pkg-config,library locator utility
+qbittorrent, torrent client
 redshift,blue light filter
 scrot,cli screenshot
 SDL2_mixer-devel,SDL2 development libraries
