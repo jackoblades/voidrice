@@ -34,6 +34,7 @@ ncurses-devel,ncurses development library
 neofetch,cli system info
 neovim,cli text editor
 NetworkManager,Wired and wireless network manager, comes with a cli
+newsboat,cli rss feed
 noto-fonts-cjk,East Asian fonts pack
 openjdk,java compiler
 p7zip,.7z compression utility
