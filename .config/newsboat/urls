@@ -1,4 +1,22 @@
-http://lukesmith.xyz/rss.xml
-https://notrelated.libsyn.com/rss
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Luke Smith (YouTube)"
-https://voidlinux.org/atom.xml
+# Text.
+http://lukesmith.xyz/rss.xml   text
+https://voidlinux.org/atom.xml text
+
+# Podcasts.
+https://notrelated.libsyn.com/rss podcast
+https://dancarlinhh.libsyn.com/rss podcast
+https://dchhaddendum.libsyn.com/rss podcast
+
+# Youtube.
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA youtube lukesmithxyz
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA youtube mentaloutlaw
+https://www.youtube.com/feeds/videos.xml?channel_id=UCznk4o83WjKFCwEZ8th8wHQ youtube edibleacres
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsj4I8YTlUGbqp7OcWTRJTw youtube maritimegardening
+https://www.youtube.com/feeds/videos.xml?channel_id=UCm61viPKEDpGVGCF2ut-SUg youtube benfalk
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuSrv3qgQA7SSi6R9bWag5A youtube trick2g
+https://www.youtube.com/feeds/videos.xml?channel_id=UCl8UfR1WkSJS666PlNsn6Yg youtube gamerzakh
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQG_fzADCunBTV1KwjkfAQQ youtube dianxixiaoge
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoC47do520os_4DBMEFGg4A youtube liziqi
+https://www.youtube.com/feeds/videos.xml?channel_id=UCc1ufNROdAxto9Fr0jnEE2Q youtube advoko
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2SMpy2oZV6BoyJEYShw9bw youtube taoutdoors
+
