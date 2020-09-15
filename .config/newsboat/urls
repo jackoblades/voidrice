@@ -1,13 +1,16 @@
-# Text.
+" "
+"--- Text ---"
 http://lukesmith.xyz/rss.xml   text
 https://voidlinux.org/atom.xml text
 
-# Podcasts.
-https://notrelated.libsyn.com/rss podcast
-https://dancarlinhh.libsyn.com/rss podcast
+" "
+"--- Podcasts ---"
+https://notrelated.libsyn.com/rss   podcast
+https://dancarlinhh.libsyn.com/rss  podcast
 https://dchhaddendum.libsyn.com/rss podcast
 
-# Youtube.
+" "
+"--- Youtube ---"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA youtube lukesmithxyz
 https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA youtube mentaloutlaw
 https://www.youtube.com/feeds/videos.xml?channel_id=UCznk4o83WjKFCwEZ8th8wHQ youtube edibleacres
@@ -20,3 +23,8 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCoC47do520os_4DBMEFGg4A you
 https://www.youtube.com/feeds/videos.xml?channel_id=UCc1ufNROdAxto9Fr0jnEE2Q youtube advoko
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2SMpy2oZV6BoyJEYShw9bw youtube taoutdoors
 
+" "
+"--- Git ---"
+https://github.com/Keriew/augustus/commits/master.atom git
+https://github.com/bvschaik/julius/commits/master.atom git
+https://gitlab.freedesktop.org/xorg/lib/libxft/-/commits/master?format=atom git
