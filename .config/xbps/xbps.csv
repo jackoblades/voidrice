@@ -29,6 +29,7 @@ mesa-vulkan-intel,mesa vulkan drivers
 mono,.net for linux
 mpc,music player client
 mpd,music player daemon
+mpv,video player
 ncmpcpp,cli music player client
 ncurses-devel,ncurses development library
 neofetch,cli system info
@@ -46,6 +47,7 @@ scrot,cli screenshot
 SDL2_mixer-devel,SDL2 development libraries
 SFML,
 SFML-devel,
+sxiv,image viewer
 unzip,.zip decompression utility
 vulkan-loader,khronos vulkan drivers
 wesnoth,strategy game
@@ -61,6 +63,7 @@ xsetroot,X server utility
 xtools,xbps utility
 xwallpaper,X server wallpaper utility
 xz,.xz compression utility
+youtube-dl,video download utility
 zathura,PDF reader
 zip,.zip compression utility
 zsh,shell
