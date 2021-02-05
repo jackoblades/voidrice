@@ -2,7 +2,6 @@
 alsa-utils,audio utilities
 audacity,audio file editor
 clang,C compiler
-cmake,C build engine
 CSFML,
 CSFML-devel,
 curl,cli https download utility
@@ -13,11 +12,9 @@ firefox,web browser
 gcc,C compiler
 gimp,image file editor
 git,Version Control System
-groff,document formatter
 i3-gaps,tiling window manager
 i3status,status bar for i3
 imlib2-devel,
-intel-video-accel,intel video acceleration meta package
 irssi,cli IRC client
 libXft,
 libXft-devel,
@@ -25,32 +22,24 @@ libXinerama-devel,
 libcurl,
 libglvnd,
 make,C build utility
-mesa-dri,intel video drivers
-mesa-vulkan-intel,mesa vulkan drivers
 mono,.net for linux
 mpc,music player client
 mpd,music player daemon
-mpv,video player
 ncmpcpp,cli music player client
 ncurses-devel,ncurses development library
 neofetch,cli system info
 neovim,cli text editor
 NetworkManager,Wired and wireless network manager, comes with a cli
-newsboat,cli rss feed
 noto-fonts-cjk,East Asian fonts pack
 openjdk,java compiler
 p7zip,.7z compression utility
 patch,code file patch utility
-pkg-config,library locator utility
-qbittorrent, torrent client
 redshift,blue light filter
 scrot,cli screenshot
-SDL2_mixer-devel,SDL2 development libraries
 SFML,
 SFML-devel,
-sxiv,image viewer
+streamlink,cli video stream pipe into video player
 unzip,.zip decompression utility
-vulkan-loader,khronos vulkan drivers
 wesnoth,strategy game
 wget,cli https download utility
 xbacklight,X server backlight utility
@@ -61,10 +50,6 @@ xorg-fonts,X server fonts
 xorg-minimal,X server base install
 xrandr,X server resolution and screen utility
 xsetroot,X server utility
-xtools,xbps utility
-xwallpaper,X server wallpaper utility
 xz,.xz compression utility
-youtube-dl,video download utility
-zathura,PDF reader
 zip,.zip compression utility
 zsh,shell
