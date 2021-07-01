@@ -51,6 +51,7 @@ xorg-fonts,X server fonts
 xorg-minimal,X server base install
 xrandr,X server resolution and screen utility
 xsetroot,X server utility
+xwallpaper,X server wallpaper utility
 xz,.xz compression utility
 zathura,reader shell
 zathura-pdf-poppler,zathura pdf plugin
