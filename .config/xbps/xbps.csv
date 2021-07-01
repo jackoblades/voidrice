@@ -34,6 +34,7 @@ noto-fonts-cjk,East Asian fonts pack
 openjdk,java compiler
 p7zip,.7z compression utility
 patch,code file patch utility
+pkg-config,development library query manager
 redshift,blue light filter
 scrot,cli screenshot
 SFML,
