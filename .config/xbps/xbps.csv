@@ -1,4 +1,3 @@
-0ad,RTS game
 alsa-utils,audio utilities
 audacity,audio file editor
 clang,C compiler
@@ -41,7 +40,6 @@ SFML,
 SFML-devel,
 streamlink,cli video stream pipe into video player
 unzip,.zip decompression utility
-wesnoth,strategy game
 wget,cli https download utility
 xbacklight,X server backlight utility
 xclip,X server clipboard utility
