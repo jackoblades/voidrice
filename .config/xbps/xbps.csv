@@ -24,6 +24,7 @@ make,C build utility
 mono,.net for linux
 mpc,music player client
 mpd,music player daemon
+mpv,media player
 ncmpcpp,cli music player client
 ncurses-devel,ncurses development library
 neofetch,cli system info
