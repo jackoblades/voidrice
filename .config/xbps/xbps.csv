@@ -2,8 +2,6 @@ alsa-utils,audio utilities
 audacity,audio file editor
 clang,C compiler
 cmake,C build system
-CSFML,
-CSFML-devel,
 curl,cli https download utility
 dbus,
 dmenu,suckless modular menu
@@ -14,20 +12,13 @@ gimp,image file editor
 git,Version Control System
 i3-gaps,tiling window manager
 i3status,status bar for i3
-imlib2-devel,
 irssi,cli IRC client
-libXft,
-libXft-devel,
-libXinerama-devel,
-libcurl,
-libglvnd,
 make,C build utility
 mono,.net for linux
 mpc,music player client
 mpd,music player daemon
 mpv,media player
 ncmpcpp,cli music player client
-ncurses-devel,ncurses development library
 neofetch,cli system info
 neovim,cli text editor
 NetworkManager,Wired and wireless network manager, comes with a cli
@@ -38,8 +29,6 @@ patch,code file patch utility
 pkg-config,development library query manager
 redshift,blue light filter
 scrot,cli screenshot
-SFML,
-SFML-devel,
 streamlink,cli video stream pipe into video player
 unzip,.zip decompression utility
 wget,cli https download utility

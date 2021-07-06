@@ -1,0 +1,13 @@
+CSFML,
+CSFML-devel,
+imlib2-devel
+libXft,
+libXfx-devel,
+libXinerama-devel,
+libcurl,
+libglvnd,
+ncurses-devel,ncurses development library
+SDL2-devel,
+SDL2_mixer-devel,
+SFML,
+SFML-devel,
