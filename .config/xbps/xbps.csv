@@ -1,6 +1,7 @@
 alsa-utils,audio utilities
 audacity,audio file editor
 clang,C compiler
+cmake,C build system
 CSFML,
 CSFML-devel,
 curl,cli https download utility
